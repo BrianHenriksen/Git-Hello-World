@@ -6,5 +6,14 @@ class Program
     {
         Console.WriteLine("Hello, World!");
         Console.WriteLine("Brian");
+        Count(num:10);
+    }
+
+    static void Count(int num)
+    {
+        for (int i = 1; i <= num; i++)
+        {
+            Console.WriteLine(i);
+        }
     }
 }
